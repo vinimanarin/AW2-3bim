@@ -1,0 +1,10 @@
+create database bdprojetoaw2;
+
+use bdprojetoaw2;
+
+create table usuarios(
+	id_usuario int AUTO_INCREMENT PRIMARY key,
+	nome varchar(30),
+	email varchar(50),
+	senha varchar(32)
+);
