@@ -37,17 +37,17 @@ $u = new Usuario;
                             <a href="index.php">Aí sim! Tudo certo, seu cadastro está confirmado. Para entrar, faça seu login!</a>
                             <?php
                         }else{
-                            echo "Ops! O e-mail utilizado já é cadastrado.";
+                            echo "Ops! O e-mail utilizado já é cadastrado :/";
                         }
                     }else{
-                        echo "As senhas diferem. Revise sua senha!";
+                        echo "As senhas diferem. Revise sua senha.";
                     }
 
                 }else{
                     echo "Ops! Parece que deu algo errado :/ ".$u->msgErro;
                 }
             }else{
-                echo "Preencha todos os campos para realizar o login";
+                echo "Preencha todos os campos para realizar o login.";
             }
         }
         ?>
